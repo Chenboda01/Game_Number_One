@@ -6,21 +6,27 @@
 from random import randint
 from time import sleep
 
-boda = randint(1, 100)
-daddy = randint(1, 100)
+boda_number = randint(1, 100)
+daddy_number = randint(1, 100)
 
 print("Are you ready to play a game?")
-input = input("Press Enter to continue...")
+sleep(2)
+# input = input("Press Enter to continue...")
+
+print("Let's do it now.\n")
 
 print("Boda is drawing a number now....")
 sleep(2)
 
-print("Daddy is drawing a number now...")
+print("Daddy is drawing a number now...\n\n")
 sleep(2)
 
-if boda > daddy:
-    print("Boda wins! because boda is", boda, "and daddy is", daddy)
-elif boda < daddy:
-    print("Daddy wins! because boda is", boda, "and daddy is", daddy)
+if boda_number > daddy_number:
+    print("Boda wins, because boda gets", boda_number, "and daddy gets", daddy_number, ".\n")
+elif boda_number < daddy_number:
+    print("Daddy wins, because boda gets", boda_number, "and daddy gets", daddy_number, ".\n")
 else:
-    print("It's a tie! because boda is", boda, "and daddy is", daddy)
+    print("It's a tie, because both boda and daddy get", boda_nubmer, ".\n")
+
+
+print("Thanks for playing the game! See you next time!")
