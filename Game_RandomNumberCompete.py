@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-#
-# By Le Chen and Chatgpt
-# chenle02@gmail.com / le.chen@auburn.edu
+# By chenboda01@gmail.com
 # Created at Mon Feb 26 10:59:43 AM EST 2024
 #
 
